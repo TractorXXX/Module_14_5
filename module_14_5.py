@@ -10,8 +10,7 @@ from keyboards import *
 from crud_functions import *
 import texts
 
-# api = '***' # Удалил реальный ключ, как было сказано в задании.
-api = '7678291396:AAHLit59XAefhk7yGTYeT4jRoHPAbtQffDA'
+api = '***' # Удалил реальный ключ, как было сказано в задании.
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
